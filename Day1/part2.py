@@ -15,8 +15,8 @@ for instruction in instructions:
         if dial_pos + mod >= 100:
             count += 1
 
-dial_pos = (dial_pos + instruction) % 100
-if dial_pos == 0:
-    count += 1
+    dial_pos = (dial_pos + instruction) % 100
+    if dial_pos == 0:
+        count += 1
 
 print(count)
