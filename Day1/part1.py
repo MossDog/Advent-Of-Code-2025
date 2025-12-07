@@ -1,4 +1,4 @@
-instructions = [int(line.strip().replace("L", "-").replace("R", "")) for line in open("input.txt")]
+instructions = [int(line.strip().replace("L", "-").replace("R", "")) for line in open("Day1/input.txt")]
 
 dial_pos = 50
 mod = 100
